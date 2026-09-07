@@ -35,9 +35,12 @@ export default function App() {
               </div>
             </div>
             {/* Made RAPID LANE much brighter and more vibrant */}
-            <h1 className="text-4xl font-black text-transparent bg-gradient-to-r from-red-700 via-red-600 to-orange-600 bg-clip-text mb-2 tracking-tight drop-shadow-sm">
-              RAPID LANE
-            </h1>
+            <h1
+  style={{ color: "red", fontSize: "40px" }}
+  className="text-xl font-bold"
+>
+  RAPID LANE
+</h1>
             <p className="text-gray-700 text-sm font-medium">
               Smart ambulance tracking for safer roads
             </p>
